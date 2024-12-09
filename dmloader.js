@@ -81,8 +81,6 @@ var CUSTOM_PARAMETERS = {
     
         var dpi = 1;
     
-        dpi = window.devicePixelRatio || 1;
-    
         app_container.style.width = width + "px";
         app_container.style.height = height + buttonHeight + "px";
         game_canvas.width = Math.floor(width * dpi);
@@ -193,8 +191,8 @@ var FileLoader = {
 
 
 var EngineLoader = {
-    wasm_size: 2400982,
-    wasmjs_size: 263732,
+    wasm_size: 2408765,
+    wasmjs_size: 266683,
     asmjs_size: 4000000,
     wasm_instantiate_progress: 0,
 

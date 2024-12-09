@@ -1,6 +1,6 @@
 [project]
 title = BatakSayar
-version = 1.5
+version = 1.6
 write_log = 0
 minimum_log_level = 1
 compress_archive = 1
@@ -11,7 +11,7 @@ title_as_file_name = BatakSayar
 [display]
 width = 960
 height = 640
-high_dpi = 1
+high_dpi = 0
 samples = 0
 fullscreen = 0
 update_frequency = 0
@@ -151,7 +151,7 @@ push_icon_large_xhdpi = /logo/96.png
 push_icon_large_xxhdpi = /logo/144.png
 push_icon_large_xxxhdpi = /logo/192.png
 push_field_title = BatakSayar
-push_field_text = bataksayar
+push_field_text = BatakSayar
 version_code = 1
 minimum_sdk_version = 19
 target_sdk_version = 34
