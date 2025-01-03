@@ -1,6 +1,6 @@
 [project]
 title = BatakSayar
-version = 1.6
+version = 1.7
 write_log = 0
 minimum_log_level = 1
 compress_archive = 1
@@ -25,7 +25,7 @@ display_device_info = 0
 clear_color_red = 0
 clear_color_green = 0
 clear_color_blue = 0
-clear_color_alpha = 0
+clear_color_alpha = 1
 
 [physics]
 type = 2D
@@ -58,7 +58,7 @@ default_texture_min_filter = linear
 default_texture_mag_filter = linear
 max_draw_calls = 1024
 max_characters = 8192
-max_font_batches = 128
+max_font_batches = 1024
 max_debug_vertices = 10000
 texture_profiles = /builtins/graphics/default.texture_profiles
 verify_graphics_calls = 1
